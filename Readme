@@ -1,0 +1,34 @@
+https://medium.com/@i192196/introduction-to-podman-c287da310c0c
+
+Introduction to Podman
+Containers have revolutionized the way applications are deployed and run in modern environments. They offer an isolated and standardized environment for software applications, making it easier to manage and deploy applications across different platforms. If you’re a Linux user and haven’t yet used containers, you may be missing out on a powerful tool that can help you streamline your development and deployment processes.
+
+Podman is a powerful, open-source container management system that is specifically designed for Linux. It offers a simple and efficient way to manage containers and images, making it an excellent choice for developers, administrators, and DevOps engineers. In this article, we will introduce you to Podman and show you how to get started with it.
+
+What is Podman?
+
+Podman is a daemonless, user-friendly command-line tool that provides a simple and efficient way to manage containers and images on Linux. It is designed to be fast and lightweight, and it does not require a daemon to run, making it ideal for use in environments where resources are limited.
+
+Podman is based on the OCI (Open Container Initiative) specification, which defines a standard for containers. This means that containers created with Podman are fully compatible with other OCI-compliant tools, such as Docker. However, Podman offers some advantages over other container management systems, including its ability to run containers as a regular user, without requiring root privileges.
+
+Getting Started with Podman
+
+Before you start using Podman, you will need to install it on your Linux system. Most Linux distributions have Podman available in their package repositories, so you can use your distribution’s package manager to install it.
+
+Once you have installed Podman, you can start using it to manage containers and images. Here are some basic commands to get you started:
+
+Search for images: You can search for images on the Docker Hub or other container registries using the podman search command.
+Pull images: Once you have found an image you want to use, you can pull it to your local system using the podman pull command.
+List images: You can list the images on your local system using the podman images command.
+Run containers: You can run a container using the podman run command. You can specify the image to use, and you can also specify any command-line arguments that you want to pass to the container.
+List containers: You can list the containers on your system using the podman ps command.
+Stop containers: You can stop a running container using the podman stop command.
+Delete containers: You can delete a container using the podman rm command.
+Conclusion
+
+Podman is a powerful and efficient container management system for Linux that offers a simple and user-friendly way to manage containers and images. Whether you are a developer, administrator, or DevOps engineer, Podman can help you streamline your development and deployment processes and make it easier to manage your applications.
+
+
+
+
+
